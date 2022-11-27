@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+.top-section{
+position: absolute;
+width: 100%;
+height: 130px;
+left: 0px;
+top: 0px;
+background: #5D5c61;
+}
+
+
+.book-info{
+    position: absolute;
+    left: 80px;
+}
+.selected-book{
+    position: absolute;
+    width: 150px;
+    height: 220px;
+    left: 55px;
+    top: 266px;
+    background: url(book5.jpg);
+}
+.selected-book .book-details{
+    position: absolute;
+width: 617px;
+height: 60px;
+left: 270px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 68px;
+
+color: #000000;
+
+}
+.selected-book .book-details .Author{
+    position: absolute;
+width: 376px;
+height: 24px;
+left: 2px;
+top: 42px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 45px;
+
+color: #6B6464;
+
+}
+.selected-book .book-details .Price{
+position: absolute;
+width: 376px;
+height: 24px;
+left: 2px;
+top: 100px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 45px;
+
+}
+.selected-book .book-details .Condition{
+
+    position: absolute;
+    width: 376px;
+    height: 24px;
+    left: 2px;
+    top: 130px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 45px;
+
+}
+.selected-book .book-details .Year{
+    position: absolute;
+    width: 376px;
+    height: 24px;
+    left: 2px;
+    top: 160px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 45px;
+ 
+
+}
+.deets{
+    position: absolute;
+    top: 100px;
+}
+.Buy h1{
+position: absolute;
+width: 280px;
+height: 350px;
+right:55px;
+top: 266px;
+background: rgba(181, 143, 163, 0.15);
+border-radius: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 57px;
+text-align: center;
+padding-top: 3rem;
+color: #000000;
+
+}
+.Uploader{
+    position: absolute;
+    top: 53px;
+}
+
+.container{
+    padding-top: 2rem;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+position: absolute;
+width: 280px;
+height: 350px;
+right:55px;
+top: 266px;
+border-radius: 20px;
+text-align: center;
+
+    background:#cebcd9 ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px 9px 9px 9px;
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.25);
+ 
+}
+
+.btn{
+    margin: 0 10px 0 10px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    
+    
+    height: 64px;
+    width: 220px;
+  
+    
+    color: #ffffff;
+    background-color: #5c2c58;
+    cursor: pointer;
+    outline: none;
+   
+    
+    
+}
+.btn:hover{
+    background: #000000;
+}
+p{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.Name{
+    
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 55px;
+    top: 530px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 45px;
+
+}
+.Number{
+    position: absolute;
+width: 407px;
+height: 37px;
+left: 54px;
+top: 559px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 45px;
+
+color: #000000;
+
+}
+.line1{
+    
+position: absolute;
+width: 100%;
+
+
+top: 700px;
+
+
+border: 0.2px solid #000000;
+background: #00000000;
+
+
+}
+
+.Container1{
+    position: absolute;
+    width: 454px;
+    height: 71px;
+    left: 90px;
+    top: 700px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    
+    color: #280d33;
+}
+.line2{
+    position: absolute;
+width: 100%;
+
+
+top: 1100px;
+
+border: 0.2px solid #000000;
+background: #00000000;
+
+}
+
+
+
+
+
+
+.wrapper {
+    height: 200px;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    /* VIA CSS MATIC https://goo.gl/cIbnS */
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-img {
+    float: left;
+    height: 200px;
+    width: 157px;
+  }
+  
+  .product-img img {
+    border-radius: 7px 0 0 7px;
+  }
+  
+  .product-info {
+    float: left;
+    height: 200px;
+    width: 243px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+  }
+  
+  .product-text {
+    height: 100px;
+    width: 240px;
+  }
+  
+  .product-text h1 {
+    margin: 0 0 0 30px;
+    padding-top: 7px;
+    font-size: 25px;
+    color: #474747;
+  }
+  
+  .product-text h1,
+  .product-price-btn p {
+    font-family: 'Bentham', serif;
+  }
+  
+  .product-text h2 {
+    margin: 0 0 0 30px;
+      padding-top: 12px;
+    font-size: 11px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #8e8d8d;
+    letter-spacing: 0.2em;
+  }
+  
+  
+  .product-price-btn {
+    height: 103px;
+    width: 200px;
+    margin-top: 17px;
+    position: relative;
+  }
+  
+  .product-price-btn p {
+    display: inline-block;
+    position: absolute;
+    top: -30px;
+    
+  
+    height: 50px;
+    font-family: 'Trocchi', serif;
+    margin: 0 0 0 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #474747;
+  }
+  
+  span {
+    display: inline-block;
+    height: 50px;
+    font-family: 'Suranna', serif;
+    font-size: 20px;
+  }
+  
+  .product-price-btn button {
+    float: left;
+    display: inline-block;
+    height: 50px;
+    width: 176px;
+  
+    bottom: 2px;
+    
+    margin: 0 10px 0 40px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #cebcd9;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .product-price-btn button:hover {
+    background-color: #5c2c58;
+  }
+
+
+  .cards .first{
+    position: absolute;
+    top: 750px;
+    left:100px;
+  }
+  .cards .second{
+    position: absolute;
+    top: 750px;
+    left:550px;
+  }
+  .cards .third{
+    position: absolute;
+    top: 750px;
+    left:1000px;
+  }
+
+  .Container2{
+    position: absolute;
+    width: 454px;
+    height: 71px;
+    left: 90px;
+    top: 1100px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    
+    color: #280d33;
+}
+
+
+.cards2 .fourth{
+    position: absolute;
+    top: 1150px;
+    left:100px;
+  }
+  .cards2 .fifth{
+    position: absolute;
+    top: 1150px;
+    left:550px;
+  }
+  .cards2 .sixth{
+    position: absolute;
+    top: 1150px;
+    left:1000px;
+  }
